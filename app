@@ -1,5 +1,3 @@
-# MAVEN + GIT COMMANDS — EXAM CHEAT SHEET
-
 ## ==================== MAVEN ====================
 
 <?xml version="1.0" encoding="UTF-8"?>

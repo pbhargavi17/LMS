@@ -655,3 +655,17 @@ git reset
 # GIT TEMPORARY STORAGE
 git stash
 git stash pop
+//////////////////////////////////////////////////////////////////////
+nano Dockerfile
+docker build -t mywebapp .
+docker run -p 8080:8080 mywebapp
+docker images
+docker commit <container-id> <username>/mywebapp
+docker push <username>/mywebapp
+
+git init
+git add .
+git commit -m "push"
+git remote add origin <repo-URL>
+git push -u origin main
+---------------------------------------------------------------------------------------------------------
